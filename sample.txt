@@ -1,2 +1,2 @@
-Hi everyone
-we are learning java
+Hello everyone!
+I want to explore file handlinf in python
