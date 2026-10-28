@@ -24,10 +24,17 @@ list = [1,2,3,4,5]
 #     print(usd_val, "USD=", inr_val, "INR")
 # converter(45)
 
-num= int(input("enter a num:"))
-def to_check(num):
-    if num%2==1:
-        print("ODD")
-    else:
-        print("EVEN")
-to_check(num)
+#num= int(input("enter a num:"))
+# def to_check(num):
+#     if num%2==1:
+#         print("ODD")
+#     else:
+#         print("EVEN")
+# to_check(num)
+
+def show(n):
+    if(n==0):
+        return
+    print(n)
+    show(n-1)
+show(5)
