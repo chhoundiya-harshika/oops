@@ -39,9 +39,16 @@ list = [1,2,3,4,5]
 #     show(n-1)
 # show(5)
 
-def fact(n):
-    if (n==0 or n==1):
-        return 1
-    else:
-        return n*fact(n-1)
-print(fact(6))
+# def fact(n):
+#     if (n==0 or n==1):
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(6))
+
+def nat_sum(n):
+    if(n==0):
+        return 0
+    return nat_sum(n-1)+n
+sum=nat_sum(5)
+print(sum)
